@@ -1,12 +1,10 @@
 # Sequence to Sequence
 
-PyTroch implementation of Sequence to Sequence model for machine translation. 
+PyTroch implementation of Sequence to Sequence model for machine translation, where two recurrent neural networks work together to transform one sequence to another.
 
-**Attention mechanism** allow decoder decide on which input words to focus during generation of each output word. 
+**Attention mechanism** allow decoder decide on which input words to focus during generation of each output word. In attention matrix each output word is representated by a row, which corresponds to computed attentions over words from input sentence in the moment of generating particular word from output sentence. During generation of first two words 'there' and 'is' network focuses on 'hay' - second word from input sentence instead on 'no'. More examples in the end.
 
-<img src="https://s13.postimg.org/si1crybrr/no_hay_rey_en_polonia-_there_is_no_king_in_there.png" width="220"> 
-
-In Sequence to Sequence model two recurrent neural networks work together to transform one sequence to another. 
+<img src="https://s13.postimg.org/ianetguev/single.png" width="220"> 
 
 **Encoder** reads an input sequence and outputs single context vector and hidden states from every timestep. 
 
@@ -42,7 +40,7 @@ Me gusta correr mucho por la manana. - I like to run a lot of the.<br />
 Me gusta leer libros y cantar. - I like reading books and sing.<br />
 Rusia es el pais mas grande de europa y del mundo. - Russia is the largest country in europe and in the.<br />
 Solia ser mejor en el pasado. - It used to be better at the past.<br />
-
+t
 **Serious mistakes:**<br />
 Ayer monte un carro. - I was a car car.<br />
 Cuando visitamos a los padres. - When was the parents parents.<br />
