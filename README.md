@@ -40,7 +40,7 @@ Me gusta correr mucho por la manana. - I like to run a lot of the.<br />
 Me gusta leer libros y cantar. - I like reading books and sing.<br />
 Rusia es el pais mas grande de europa y del mundo. - Russia is the largest country in europe and in the.<br />
 Solia ser mejor en el pasado. - It used to be better at the past.<br />
-t
+
 **Serious mistakes:**<br />
 Ayer monte un carro. - I was a car car.<br />
 Cuando visitamos a los padres. - When was the parents parents.<br />
@@ -48,12 +48,9 @@ En japon mucha gente vive. - She is many people.<br />
 En la ciudad puedes andar en bicicleta y en automovil. - In town can walk a and and.<br />
 Estuve en el cine ayer. - I was the the the yesterday yesterday.<br />
 
-More attentions examples:
-
-No lo hago por dinero. - I don't do it for money.<br />
-Nunca he estado en china. - I've never been to in china.<br />
-En america hay gasolina barata. - There are in the only in there are.<br />
+**More attentions examples:**<br />
+perfect translation: No lo hago por dinero. - I don't do it for money.<br />
+minor mistakes: Nunca he estado en china. - I've never been to in china.<br />
+serious mistakes: En america hay gasolina barata. - There are in the only in there are.<br />
 
 <img src="https://s13.postimg.org/nn7ntrdh3/canvas.png" height="277">
-
-
