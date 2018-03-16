@@ -14,7 +14,7 @@ PyTroch implementation of Sequence to Sequence model for machine translation, wh
 
 <img src="https://s13.postimg.org/gjzsdui8n/image.png" width="600">
 
-Network generally learns to translate unseen sentences from Spanish to English. Sometimes translations are perfect, sometimes mistakes are minor and sometimes output have little common with input. All things considered, it suprassed my expectations. Trainig was done around 100 000 pairs of spanish-english sentences. Spanish vocabulary size was around 16 000 and English around 8 000 words. Embeddings were attached to inputs both in encoder and decoder. 
+Network generally learns to translate unseen sentences from Spanish to English. Sometimes translations are perfect, sometimes mistakes are minor and sometimes output have little common with input. All things considered, it surpassed my expectations. Trainig was done around 100 000 pairs of spanish-english sentences. Spanish vocabulary size was around 16 000 and English around 8 000 words. Embeddings were attached to inputs both in encoder and decoder. 
 
 **Perfect translations:**<br />
 Conoci al rey. - I met the king.<br />
@@ -49,8 +49,8 @@ En la ciudad puedes andar en bicicleta y en automovil. - In town can walk a and 
 Estuve en el cine ayer. - I was the the the yesterday yesterday.<br />
 
 **More attentions examples:**<br />
-perfect translation: No lo hago por dinero. - I don't do it for money.<br />
-minor mistakes: Nunca he estado en china. - I've never been to in china.<br />
-serious mistakes: En america hay gasolina barata. - There are in the only in there are.<br />
+1. perfect translation: No lo hago por dinero. - I don't do it for money.<br />
+2. minor mistake: Nunca he estado en china. - I've never been to in china.<br />
+3. serious mistake: En america hay gasolina barata. - There are in the only in there are.<br />
 
 <img src="https://s13.postimg.org/nn7ntrdh3/canvas.png" height="277">
