@@ -10,7 +10,7 @@ PyTroch implementation of Sequence to Sequence model for machine translation, wh
 
 <img src="https://s17.postimg.org/tue57sq33/image.png" width="400">
 
-**Decoder** recieves context vector, and with the help of encoder hidden states produces an output sequence.
+**Decoder** recieves context vector and with the help of encoder hidden states produces an output sequence.
 
 <img src="https://s13.postimg.org/gjzsdui8n/image.png" width="600">
 
