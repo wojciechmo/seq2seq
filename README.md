@@ -2,7 +2,9 @@
 
 PyTroch implementation of Sequence to Sequence model for machine translation, where two recurrent neural networks work together to transform one sequence to another.
 
-**Attention mechanism** allow decoder decide on which input words to focus during generation of each output word. In attention matrix each output word is representated by a row, which corresponds to computed attentions over words from input sentence in the moment of generating particular word from output sentence. During generation of first two words 'there' and 'is' network focuses on 'hay' - second word from input sentence instead on 'no'. More examples in the end.
+**Attention mechanism** allow decoder decide on which input words to focus during generation of each output word. 
+
+In attention matrix a row corresponds to computed attentions over words from input sentence in the moment of generating particular word from output sentence. During generation of first two words 'there' and 'is' network focuses on 'hay' - second word from input sentence instead on 'no'. More examples in the end.
 
 <img src="https://s13.postimg.org/ianetguev/single.png" width="220"> 
 
