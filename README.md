@@ -16,7 +16,7 @@ In attention matrix a row corresponds to computed attentions over words from inp
 
 <img src="https://s13.postimg.org/gjzsdui8n/image.png" width="600">
 
-Network generally learns to translate unseen sentences from Spanish to English. Sometimes translations are perfect, sometimes mistakes are minor and sometimes output have little common with input. All things considered, it surpassed my expectations. Trainig was done around 100 000 pairs of spanish-english sentences. Spanish vocabulary size was around 16 000 and English around 8 000 words. Embeddings were attached to inputs both in encoder and decoder. 
+Network generally learns to translate unseen sentences from Spanish to English. Sometimes translations are perfect, sometimes mistakes are minor and sometimes output have little in common with input. All things considered, it surpassed my expectations. Trainig was done around 100 000 pairs of spanish-english sentences. Spanish vocabulary size was around 16 000 and English around 8 000 words. Embeddings were attached to inputs both in encoder and decoder. 
 
 **Perfect translations:**<br />
 Conoci al rey. - I met the king.<br />
