@@ -6,15 +6,15 @@ PyTroch implementation of Sequence to Sequence model for machine translation, wh
 
 In attention matrix a row corresponds to computed attentions over words from input sentence in the moment of generating particular word from output sentence. During generation of first two words 'there' and 'is' network focuses on 'hay' - second word from input sentence instead on 'no'. More examples in the end.
 
-<img src="https://s13.postimg.org/ianetguev/single.png" width="220"> 
+<img src="https://github.com/WojciechMormul/seq2seq/blob/master/imgs/single.png" width="220"> 
 
 **Encoder** reads an input sequence and outputs single context vector and hidden states from every timestep. 
 
-<img src="https://s17.postimg.org/tue57sq33/image.png" width="400">
+<img src="https://github.com/WojciechMormul/seq2seq/blob/master/imgs/s1.png" width="400">
 
 **Decoder** recieves context vector and with the help of encoder hidden states produces an output sequence.
 
-<img src="https://s13.postimg.org/gjzsdui8n/image.png" width="600">
+<img src="https://github.com/WojciechMormul/seq2seq/blob/master/imgs/s3.png" width="600">
 
 Network generally learns to translate unseen sentences from Spanish to English. Sometimes translations are perfect, sometimes mistakes are minor and sometimes output have little in common with input. All things considered, it surpassed my expectations. Trainig was done around 100 000 pairs of spanish-english sentences. Spanish vocabulary size was around 16 000 and English around 8 000 words. Embeddings were attached to inputs both in encoder and decoder. 
 
@@ -55,4 +55,4 @@ Estuve en el cine ayer. - I was the the the yesterday yesterday.<br />
 2. minor mistake: Nunca he estado en china. - I've never been to in china.<br />
 3. serious mistake: En america hay gasolina barata. - There are in the only in there are.<br />
 
-<img src="https://s13.postimg.org/nn7ntrdh3/canvas.png" height="277">
+<img src="https://github.com/WojciechMormul/seq2seq/blob/master/imgs/canvas.png" height="277">
